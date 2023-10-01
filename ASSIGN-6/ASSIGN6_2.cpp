@@ -62,7 +62,7 @@ class Employee
 };
 
 
-class Manager :public Employee
+class Manager :virtual Employee
 {
 private:
 float bonus;
@@ -119,7 +119,7 @@ void display_manager()
 
 
 
-class Salesman :public Employee
+class Salesman : virtual public Employee
 {
  private:
  float comm;
