@@ -239,12 +239,12 @@ class Person
 int main()
 {
  Employee e1;
-//  e1.accept();
+ e1.accept();
  e1.display();
-//  Person p1;
-//  p1.accept();
-//  p1.display();
-//  Date d;
-//  d.is_leap_year();
+ Person p1;
+ p1.accept();
+ p1.display();
+ Date d;
+ d.is_leap_year();
 
 }
